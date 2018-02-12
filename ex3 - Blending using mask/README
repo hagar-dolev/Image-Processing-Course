@@ -1,0 +1,19 @@
+Hagar Dolev
+
+This project contains the following files:
+sol3.py
+answer_q1.txt
+answer_q2.txt
+answer_q3.txt
+minSuf_size.jpg
+chris_tree_size.jpg
+minsuf_mask_size.jpg
+pug_sized.jpg
+sunf_size.jpg
+maskforsunflower2.jpg
+
+This code, blends two images according to a given binary mask
+Using Pyramids.
+
+For checking the results, run the examples in code.
+Later on I will add the main method for easy use.

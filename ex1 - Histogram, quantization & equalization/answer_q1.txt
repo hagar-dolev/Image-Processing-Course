@@ -1,0 +1,1 @@
+It would be an issue because it will promote zero division, and the program will crash.

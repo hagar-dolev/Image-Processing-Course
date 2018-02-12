@@ -1,0 +1,13 @@
+Hagar Dolev
+
+This project contains the following files:
+sol1.py
+answer_q1.txt
+
+This code, contains Histogram related filters: quantization and equalization.
+It also contains relevant filter factory.
+
+***There is a bug and the program crashes, which need's to be fixed, Will update when I get to do it.
+
+For checking the results, run the wanted action according to documentation.
+Later on I will add the main method for easy use.

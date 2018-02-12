@@ -1,0 +1,8 @@
+Q1: Describe the effect of increasing the residual blocks on its performance for each task, both quantitatively
+in terms of the plot you got and qualitatively in terms of the differences in the image outputs of
+each model.
+
+The effect is that the error is much smaller the more residual blocks there is.
+We can see at the last epoch, the green line is no where near the yellow one, and the red is in the middle.
+Of course it has an affect on the images, it is more accurate to predict an image when training with more residual
+blocks, but, as we learned in class, it might "over" learn the kind of corruption or images we are using.

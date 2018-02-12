@@ -1,0 +1,7 @@
+Q3:  What is the difference between the two results (Blurring in image space and blurring
+in Fourier space)?
+
+
+Although the difference is very small we can see it.
+The difference is similar to the difference in the derivatives and it is the contrast, it seems that the dark colors
+have gotten darker while the bright colors have gotten brighter, yet it is still blurred.

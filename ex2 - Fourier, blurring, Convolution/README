@@ -1,0 +1,14 @@
+Hagar Dolev
+
+This project contains the following files:
+sol2.py
+answer_q1.txt
+answer_q2.txt
+answer_q3.txt
+
+This code, contains some of the image prcessing building blocks.
+It has "Discrete Transform Fourier" method, blurring methods using Gaussian kernels, Convolution
+and others.
+
+For checking the results, run the wanted action according to documentation.
+Later on I will add the main method for easy use.

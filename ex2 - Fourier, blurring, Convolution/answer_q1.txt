@@ -1,0 +1,7 @@
+Q1: Why did you get two different magnitude images?
+
+More Noise
+Because Fourier's derivatives are accurate by up to a scalar, so that scalar is the difference, and also, in Fourier's
+derivatives there is an enhancement of the strong waves and decrease in the weak ones, as described in class:
+Lecture 3 , page 33 in the presentation
+So we can see more noise.

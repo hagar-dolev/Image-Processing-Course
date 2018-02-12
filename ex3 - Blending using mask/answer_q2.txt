@@ -1,0 +1,6 @@
+What happens (and why this happens) to the result blending from section 4 image when:
+Q2: Blending is performed with different image filters (filter_size_im = 1,3,5,7...).
+
+It is the "radius" of the pixels we take into account in blending, around each pixel, therefore, the larger it is,
+the more visible the blending is.
+This happens since it is enlarging the size of the kernel.

@@ -1,0 +1,6 @@
+Q2:  What happens if the center of the gaussian (in the space domain) will not be at the
+(0,0) of the image?  Why does it happen?
+
+The image will not be blurred correctly and it will result in the image breaking down to quarters in cyclic way on the image matrix.
+This happens since we use the DFT as sort of LUT for the basis of the cos and sin waves, since the gaussian will not be
+in coordinate with the DFT if it is in the center of the image, it results in a "bad" LUT.

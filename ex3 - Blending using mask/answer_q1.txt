@@ -1,0 +1,5 @@
+What does it mean to multiply each level in a different value? What do we try to control on?
+
+It is the weight we want to give for each part of the pyramid, we can control how much of a current level of a pyramid
+is counted in, for example, we can blend in the lowest level with something else and as we move on the pyramid
+to let it be less significant, so our result will be mended, and the blending will not be full.

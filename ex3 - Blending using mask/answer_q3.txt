@@ -1,0 +1,11 @@
+What happens (and why this happens) to the result blending from section 4 image when:
+Q3: Blending is performed with a varying number of pyramid levels (max_levels = 1,2,3,4,5,...).
+
+When I blended with large number of pyramids it was as if the images were merged completely - both in color and light,
+So it was almost un-noticeable, but when I brought back to the lower amount of pyramids the image blending has became more subtle,
+and it was easier to see which part is which image.
+
+I think this happens because the more pyramid levels we use, then the blending starts at a much lower resolution, so each
+dominant pixel has a lot more wight compared to a dominant pixel in a larger image, which is less significant.
+This will cause the image with more pixels to affect the image with less pixels in the blending area.
+The weight of each pixel is more significant, and therefore the blending is "stronger".
